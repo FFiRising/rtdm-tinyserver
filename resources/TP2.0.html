@@ -1,0 +1,575 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Temperature and Pressure Display</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #222;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        h1 {
+            color: #fff;
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        .data-container {
+        background-color: #333;
+        padding: 20px;
+        border-radius: 8px;
+        margin-top: 20px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        }
+
+        .data-label {
+            font-size: 18px;
+            font-weight: bold;
+            color: #fff;
+            margin-bottom: 5px;
+            margin-right: 25px;
+            margin-left: 25px;
+        }
+
+        .data-value-container {
+            display: flex;
+            align-items: center;
+            margin-right: 25px;
+            margin-left: 25px;
+        }
+
+        .data-value {
+            font-size: 18px;
+            color: #fff;
+            margin-bottom: 2px;
+            padding: 10px;
+            border: 2px solid #fff;
+            border-radius: 10px;
+            margin-left: 10px;
+            width: 100px;
+            text-align: center;
+        }
+
+        .unit {
+            font-size: 20px;
+            color: #fff;
+            margin-left: 5px;
+        }
+
+        .icon {
+            margin-right: 5px;
+            color: #fff;
+        }
+
+
+        #clock {
+            font-size: 24px;
+            color: #fff;
+            margin-top: 20px;
+        }
+
+        .mode-selector {
+            display: flex;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .mode-selector-label {
+            color: #fff;
+            margin-right: 10px;
+        }
+
+        .mode-selector-option {
+            color: #fff;
+            cursor: pointer;
+            padding: 5px 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .mode-selector-option.active {
+            background-color: #4caf50;
+        }
+        
+  
+
+         .chart-container {
+            width: 100%;
+           height: 20%; 
+     
+            /* display: inline-block; 
+            vertical-align: top;
+            padding: 50px;
+            box-sizing: border-box;  */
+            margin-right: 40px;
+        }
+
+        .chart-container2 {
+            width: 30%;
+          /* height: 20%; */
+     
+            display: inline-block; 
+            vertical-align: top;
+            padding: 50px;
+            box-sizing: border-box; 
+        }
+
+        .chart-title {
+            color: #fff;
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .chart-containerReal {
+       
+            width: 50%;
+            /* 修改display属性为block以独占一行 */
+            display: inline-block;
+            /* 修改padding为0，以消除边距 */
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .chart-row {
+            width: 100%;
+            display: flex;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts@3.27.1"></script>
+    <script>
+        var chartTemperature = null;
+        var chartPressure = null;
+        var temperatureData = [];
+        var pressureData = [];
+        var chartRealtime = null;
+        var realtimeData = [];
+
+        var realtimetemData = [];
+        var realtimepreData = []; 
+
+        var temperature_page_1;
+        var pressure_page_1;
+
+        $(document).ready(function() {
+            // 页面加载完成后执行请求数据并更新显示
+            fetchDataAndDisplay();
+
+            // 每秒更新一次时间
+            setInterval(updateClock, 1000);
+            
+           
+            setInterval(fetchDataAndDisplay,2000);
+
+            //setInterval(updateRealtimeChart,2000);
+            // 模式选择事件监听
+            $(".mode-selector-option").on("click", function() {
+                var mode = $(this).data("mode");
+
+                // 切换选中状态
+                $(".mode-selector-option").removeClass("active");
+                $(this).addClass("active");
+
+                // 根据模式显示或隐藏对应的数据和图表
+                if (mode === "realtime") {
+                    showRealtimeMode();
+                } else if (mode === "history") {
+                    showHistoryMode();
+                }
+            });
+        });
+
+        function fetchDataAndDisplay() {
+            // 发送GET请求获取温度和压力数据
+            //var recv_data;
+            $.get("http://1.14.69.237:10000/jsondata",  function(recv_data_json) {
+                // 解析响应数据
+              //  recv_data = JSON.parse(recv_data_json);
+               // recv_data_json = $.parseJSON(recv_data_json);
+               //console.log(recv_data_json);
+                temperature_page_1 = recv_data_json.temperature;
+                pressure_page_1 = recv_data_json.pressure;
+
+                temperature_page_1 = temperature_page_1.toFixed(3);
+                pressure_page_1 = pressure_page_1.toFixed(3);
+
+                // 更新温度和压力显示
+                document.getElementById("temperature").innerText = temperature_page_1;
+                document.getElementById("pressure").innerText = pressure_page_1;
+
+                //实时模式下，更新数据并绘制曲线图
+                if ($(".mode-selector-option.active").data("mode") === "realtime") {
+                   // temperatureData.push(temperature_page_1);
+                    //pressureData.push(pressure_page_1);
+
+                    var currentTime = new Date().getTime();
+                    realtimetemData.push({ x: currentTime, y: temperature_page_1 });
+                    realtimepreData.push({ x: currentTime, y: pressure_page_1 });
+                    updateRealTimeChart();
+                    //updateChart();
+                }
+            }, "json");
+        }
+
+        function updateClock() {
+            var now = new Date();
+            var hours = now.getHours();
+            var minutes = now.getMinutes();
+            var seconds = now.getSeconds();
+
+            // 格式化时间为 HH:MM:SS
+            var formattedTime = hours.toString().padStart(2, '0') + ":" + minutes.toString().padStart(2, '0') + ":" + seconds.toString().padStart(2, '0');
+
+            // 更新时间显示
+            document.getElementById("clock").innerText = formattedTime;
+        }
+    
+
+       //  function updateRealtimeChart() {
+        //     // var temperaturechart = (Math.random() * 50).toFixed(2);
+        //     // var pressurechart = (Math.random() * 100).toFixed(2);
+
+        //     // document.getElementById("temperature").innerText = temperaturechart;
+        //     // document.getElementById("pressure").innerText = pressurechart;
+        //     // var temperature = (Math.random() * 50).toFixed(2);
+        //     // var pressure = (Math.random() * 100).toFixed(2);
+
+        //     // document.getElementById("temperature").innerText = temperature_page_1;
+        //     // document.getElementById("pressure").innerText = pressure_page_1;
+
+        //     // 将温度和压力数据添加到数组中
+        //     var currentTime = new Date().getTime();
+        //     realtimeData.push({ x: currentTime, y:temperature_page_1 });
+        //     realtimeData.push({ x: currentTime, y:pressure_page_1 });
+
+        //     // 只保留最近的100个数据点
+        //     if (realtimeData.length > 200) {
+        //         realtimeData.shift();
+        //     }
+         //    updateRealTimeChart();
+  
+        // }
+
+         function updateRealTimeChart() {
+              
+
+
+            // 只保留最近的100个数据点
+            if (realtimetemData.length > 200) {
+                realtimetemData.shift();
+            }
+            
+            // 更新曲线图
+
+            if (chartRealtime) {
+                chartRealtime.updateSeries([
+                    {
+                        name: "Temperature",
+                        //data: realtimeData.filter(function (d) { return d.y <= 50; })  // 过滤温度数据
+                        data:   realtimetemData
+                    },
+                    {
+                        name: "Pressure",
+                       // data: realtimeData.filter(function (d) { return d.y <= 100; })  // 过滤压力数据
+                       data:    realtimepreData
+                    }
+                ]);
+            } else {
+                chartRealtime = new ApexCharts(document.getElementById("chart-realtime"), {
+                    series: [
+                        {
+                            // name: "Temperature",
+                            // data: realtimeData.filter(function (d) { return d.y <= 50; })  // 过滤温度数据
+                            name: "Temperature",
+                            data:   realtimetemData
+                        },
+                        {
+                            // name: "Pressure",
+                            // data: realtimeData.filter(function (d) { return d.y <= 100; })  // 过滤压力数据
+                            name: "Pressure",
+                            data:   realtimepreData
+                        }
+                    ],
+                    chart: {
+                        type: 'line',
+                        height: 350,
+                        foreColor: "#fff",
+                        toolbar: {
+                            show: false
+                        }
+                    },
+                    stroke: {
+                        curve: 'smooth',
+                        width: 2
+                    },
+                    markers: {
+                        size: 0
+                    },
+                    xaxis: {
+                        type: 'datetime',
+                        labels: {
+                            datetimeFormatter: {
+                                year: 'yyyy',
+                                month: 'MMM \'yy',
+                                day: 'dd MMM',
+                                hour: 'HH:mm'
+                            }
+                        },
+                        axisBorder: {
+                            show: false
+                        }
+                    },
+                    yaxis: {
+                        min: 0,
+                        max: 1100,
+                        tickAmount: 6,
+                        labels: {
+                            formatter: function (value) {
+                                return value.toFixed(2);
+                            }
+                        }
+                    },
+                    tooltip: {
+                        x: {
+                            format: 'dd MMM yyyy HH:mm'
+                        }
+                    }
+                });
+
+                chartRealtime.render();
+            }
+         }
+       
+        function showRealtimeMode() {
+            // 显示实时数据模块
+           /// setInterval(updateRealtimeData, 2000);
+         
+            $(".data-container").show();
+            $(".chart-containerReal").show();
+            $(".chart-container").hide();
+            
+        }
+
+        function showHistoryMode() {
+            // 隐藏实时数据模块
+            $(".data-container").hide();
+            $(".chart-containerReal").hide();
+
+            $(".chart-container").show();
+
+            // 清空实时数据
+            temperatureData = [];
+            pressureData = [];
+
+            // 模拟历史数据
+            for (var i = 0; i <= 100; i++) {
+                temperatureData.push(Math.random() * 50);
+                pressureData.push(Math.random() * 100);
+            }
+
+            // 绘制历史数据曲线图
+            updateChart();
+        }
+
+        function updateChart() {
+            if (chartTemperature && chartPressure) {
+                chartTemperature.updateSeries([
+                    {
+                        name: "Temperature",
+                        data: temperatureData
+                    }
+                ]);
+                chartPressure.updateSeries([
+                    {
+                        name: "Pressure",
+                        data: pressureData
+                    }
+                ]);
+            } else {
+                chartTemperature = new ApexCharts(document.getElementById("chart-temperature"), {
+                    series: [
+                        {
+                            name: "Temperature",
+                            data: temperatureData
+                        }
+                    ],
+                    chart: {
+                        type: 'line',
+                        height: 350,
+                        animations: {
+                            enabled: true,
+                            easing: 'easeinout',
+                            speed: 300,
+                            animateGradually: {
+                                enabled: true,
+                                delay: 50
+                            },
+                            dynamicAnimation: {
+                                enabled: true,
+                                speed: 350
+                            }
+                        }
+                    },
+                    colors: ['#FF4560'],
+                    dataLabels: {
+                        enabled: false
+                    },
+                    stroke: {
+                        curve: 'smooth'
+                    },
+                    xaxis: {
+                        categories: Array.from(Array(temperatureData.length).keys()).map(function (i) { return i.toString(); }),
+                        labels: {
+                            show: false
+                        }
+                    },
+                    yaxis: {
+                        labels: {
+                            style: {
+                                colors: "#fff"
+                            },
+                            formatter: function (value) {
+                             return value.toFixed(2);
+                            }
+                        }
+                    },
+                    legend: {
+                        show: false
+                    }
+                });
+
+                chartPressure = new ApexCharts(document.getElementById("chart-pressure"), {
+                    series: [
+                        {
+                            name: "Pressure",
+                            data: pressureData
+                        }
+                    ],
+                    chart: {
+                        type: 'line',
+                        height: 350,
+                        animations: {
+                            enabled: true,
+                            easing: 'easeinout',
+                            speed: 300,
+                            animateGradually: {
+                                enabled: true,
+                                delay: 50
+                            },
+                            dynamicAnimation: {
+                                enabled: true,
+                                speed: 350
+                            }
+                        }
+                    },
+                    colors: ['#00E396'],
+                    dataLabels: {
+                        enabled: false
+                    },
+                    stroke: {
+                        curve: 'smooth'
+                    },
+                    xaxis: {
+                        categories: Array.from(Array(pressureData.length).keys()).map(function (i) { return i.toString(); }),
+                        labels: {
+                            show: false
+                        }
+                    },
+                    yaxis: {
+                        labels: {
+                            //formatter: function(value) {
+                            //return value.toFixed(2);
+                           // }
+                            style: {
+                                colors: "#fff"
+                            },
+                            formatter: function (value) {
+                             return value.toFixed(2);
+                            }
+                            
+                        }
+                    },
+                    legend: {
+                        show: false
+                    }
+                });
+
+                chartTemperature.render();
+                chartPressure.render();
+            }
+        }
+    </script>
+</head>
+<body>
+
+    <h1>Temperature and Pressure Display</h1>
+    <div class="data-container">
+        <div>
+            <div class="data-label"><i class="fas fa-thermometer-half icon"></i>Temperature:</div>
+            <div class="data-value-container">
+                <div id="temperature" class="data-value"></div>
+                <div class="unit">℃</div>
+            </div>
+        </div>
+
+        <div>
+            <div class="data-label"><i class="fas fa-tachometer-alt icon"></i>Pressure:</div>
+            <div class="data-value-container">
+                <div class="data-value" id="pressure"></div>
+                <div class="unit">Kpa</div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+  
+ 
+
+         <div class="chart-row">
+                <div class="chart-container">
+                    <div class="chart-title">Temperature Chart</div>
+                    <div id="chart-temperature"></div>
+                </div>
+   
+                <div class="chart-container">
+                    <div class="chart-title">Pressure Chart</div>
+                    <div id="chart-pressure"></div>
+                </div>
+        </div>
+
+
+
+      
+  
+    <div class="chart-containerReal">
+        <div class="chart-title">Realtime Data Chart</div>
+        <div id="chart-realtime"></div>
+    </div>
+
+    <div class="mode-selector">
+        <div class="mode-selector-label">Mode:</div>
+        <div class="mode-selector-option active" data-mode="realtime">Realtime</div>
+        <div class="mode-selector-option" data-mode="history">History</div>
+    </div>
+    <div id="clock"></div>
+
+    <script>
+        showRealtimeMode();
+    </script>
+</body>
+</html>

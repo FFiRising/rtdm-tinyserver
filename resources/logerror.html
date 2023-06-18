@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            margin-top: 100px;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #333333;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .form-group input {
+            width: 90%;
+            padding: 10px;
+            font-size: 14px;
+            border: 1px solid #cccccc;
+            border-radius: 3px;
+        }
+
+        .form-group button {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: #ffffff;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        .hidden {
+            display: none;
+        }
+
+        .container {
+            position: relative;
+        } 
+        .toggle-buttons {
+            position: absolute;
+            top: 80px;
+            right: 10px;
+        }
+        .error-message {
+            color: red;
+            margin-top: 10px;
+        }
+
+    </style>
+    <script>
+        // JavaScript代码，用于切换表单的显示和隐藏
+        function toggleForm() {
+            var loginForm = document.getElementById('login-form');
+            var registerForm = document.getElementById('register-form');
+            var loginButton = document.getElementById('login-button');
+            var registerButton = document.getElementById('register-button');
+
+            loginForm.classList.toggle('hidden');
+            registerForm.classList.toggle('hidden');
+            loginButton.classList.toggle('active');
+            registerButton.classList.toggle('active');
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h2>Lab远程监控系统</h2>
+
+        <div class="toggle-buttons">
+            <button id="login-button" class="active" onclick="toggleForm()">Login</button>
+            <button id="register-button" onclick="toggleForm()">Register</button>
+        </div>
+
+        <div class="error-message">
+            <p>登录或注册失败，请检查用户名和密码是否正确。</p>
+        </div>
+
+            <form id="login-form" method="post" action="2login">
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" placeholder="Enter your username">
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Enter your password">
+                </div>
+                <div class="form-group">
+                    <button type="submit">Login</button>
+                </div>
+            </form>
+
+            <form id="register-form" class="hidden" method="post" action="3register">
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" placeholder="Enter your username">
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Enter your password">
+                </div>
+                <div class="form-group">
+                    <button type="submit">Register</button>
+                </div>
+            </form>
+        </div>
+</body>
+</html>
+
+    
+    
+    
