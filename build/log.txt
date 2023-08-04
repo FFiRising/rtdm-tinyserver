@@ -1,0 +1,1208 @@
+2023-08-04 17:28:13	INFO	../src/main.cpp	0	45	server init 
+2023-08-04 17:28:13	INFO	../src/main.cpp	0	46	user Ї��, passwd
+2023-08-04 17:30:09	INFO	../src/main.cpp	0	45	server init 
+2023-08-04 17:30:09	INFO	../src/main.cpp	0	46	user ��tB�, passwd, ��tB�
+2023-08-04 17:30:58	INFO	../src/main.cpp	0	45	server init 
+2023-08-04 17:30:58	INFO	../src/main.cpp	0	46	user root, passwd, 密码
+2023-08-04 17:56:38	INFO	../src/main.cpp	0	45	http server init 
+2023-08-04 17:56:38	INFO	../src/main.cpp	0	46	user : root, database : mysql
+2023-08-04 17:56:46	INFO	../src/http_connection/http_conn.cpp	0	88	client 18 init
+
+2023-08-04 17:56:47	INFO	../src/http_connection/http_conn.cpp	0	88	client 18 init
+
+2023-08-04 18:00:32	INFO	../src/main.cpp	0	45	http server init 
+2023-08-04 18:00:32	INFO	../src/main.cpp	0	46	user : root, database : mysql
+2023-08-04 18:00:37	INFO	../src/http_connection/http_conn.cpp	0	88	client 18 init
+
+2023-08-04 18:00:37	INFO	../src/http_connection/http_conn.cpp	0	88	client 18 init
+
+2023-08-04 18:01:59	INFO	../src/http_connection/http_conn.cpp	0	88	client 18 init
+
+2023-08-04 18:01:59	INFO	../src/http_connection/http_conn.cpp	0	88	client 18 init
+
+2023-08-04 18:02:00	INFO	../src/http_connection/http_conn.cpp	0	88	client 18 init
+
+2023-08-04 18:02:28	INFO	../src/main.cpp	0	45	http server init 
+2023-08-04 18:02:28	INFO	../src/main.cpp	0	46	user : root, database : mysql
+2023-08-04 18:02:40	INFO	../src/http_connection/http_conn.cpp	0	88	client 18 init
+
+2023-08-04 18:02:50	INFO	../src/http_connection/http_conn.cpp	0	88	client 18 init
+
+2023-08-04 18:02:50	INFO	../src/http_connection/http_conn.cpp	0	88	client 18 init
+
+2023-08-04 18:48:29	INFO	../src/main.cpp	0	45	http server init 
+2023-08-04 18:48:29	INFO	../src/main.cpp	0	46	user : root, database : mysql
+2023-08-04 18:48:41	INFO	../src/http_connection/http_conn.cpp	0	88	info: client 18 init
+
+2023-08-04 18:48:41	INFO	../src/http_connection/http_conn.cpp	0	260	 m_method: 0
+  m_verson: HTTP/1.1
+  m_url :/logandreg.html
+  m_check_state 1
+
+2023-08-04 18:48:41	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+2023-08-04 18:48:41	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+
+2023-08-04 18:48:41	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Encoding: gzip, deflate
+
+2023-08-04 18:48:41	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+
+2023-08-04 18:48:41	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Upgrade-Insecure-Requests: 1
+
+2023-08-04 18:48:41	INFO	../src/http_connection/http_conn.cpp	0	721	bytes_to_send 3936
+
+2023-08-04 18:48:57	INFO	../src/http_connection/http_conn.cpp	0	88	info: client 18 init
+
+2023-08-04 18:48:57	INFO	../src/http_connection/http_conn.cpp	0	260	 m_method: 1
+  m_verson: HTTP/1.1
+  m_url :/2login
+  m_check_state 1
+
+2023-08-04 18:48:57	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+2023-08-04 18:48:57	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+
+2023-08-04 18:48:57	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Encoding: gzip, deflate
+
+2023-08-04 18:48:57	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+
+2023-08-04 18:48:57	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Cache-Control: max-age=0
+
+2023-08-04 18:48:57	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Content-Type: application/x-www-form-urlencoded
+
+2023-08-04 18:48:57	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Origin: http://1.14.69.237:10000
+
+2023-08-04 18:48:57	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Referer: http://1.14.69.237:10000/logandreg.html
+
+2023-08-04 18:48:57	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Upgrade-Insecure-Requests: 1
+
+2023-08-04 18:48:57	INFO	../src/http_connection/http_conn.cpp	0	435	用户登陆成功 (labusername : zf, labpasswd : 123456)
+2023-08-04 18:48:57	INFO	../src/http_connection/http_conn.cpp	0	721	bytes_to_send 19527
+
+2023-08-04 18:48:58	INFO	../src/http_connection/http_conn.cpp	0	88	info: client 18 init
+
+2023-08-04 18:48:58	INFO	../src/http_connection/http_conn.cpp	0	260	 m_method: 0
+  m_verson: HTTP/1.1
+  m_url :/jsondata
+  m_check_state 1
+
+2023-08-04 18:48:58	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+2023-08-04 18:48:58	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept: application/json, text/javascript, */*; q=0.01
+
+2023-08-04 18:48:58	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Encoding: gzip, deflate
+
+2023-08-04 18:48:58	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+
+2023-08-04 18:48:58	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Referer: http://1.14.69.237:10000/2login
+
+2023-08-04 18:48:58	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header X-Requested-With: XMLHttpRequest
+
+2023-08-04 18:48:58	INFO	../src/http_connection/http_conn.cpp	0	499	用户获取jsondata 数据 
+2023-08-04 18:48:58	INFO	../src/http_connection/http_conn.cpp	0	680	服务器写jsondata 数据 
+2023-08-04 18:48:58	INFO	../src/http_connection/http_conn.cpp	0	721	bytes_to_send 88
+
+2023-08-04 18:49:00	INFO	../src/http_connection/http_conn.cpp	0	88	info: client 18 init
+
+2023-08-04 18:49:00	INFO	../src/http_connection/http_conn.cpp	0	260	 m_method: 0
+  m_verson: HTTP/1.1
+  m_url :/jsondata
+  m_check_state 1
+
+2023-08-04 18:49:00	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+2023-08-04 18:49:00	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept: application/json, text/javascript, */*; q=0.01
+
+2023-08-04 18:49:00	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Encoding: gzip, deflate
+
+2023-08-04 18:49:00	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+
+2023-08-04 18:49:00	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Referer: http://1.14.69.237:10000/2login
+
+2023-08-04 18:49:00	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header X-Requested-With: XMLHttpRequest
+
+2023-08-04 18:49:00	INFO	../src/http_connection/http_conn.cpp	0	499	用户获取jsondata 数据 
+2023-08-04 18:49:00	INFO	../src/http_connection/http_conn.cpp	0	680	服务器写jsondata 数据 
+2023-08-04 18:49:00	INFO	../src/http_connection/http_conn.cpp	0	721	bytes_to_send 88
+
+2023-08-04 18:49:02	INFO	../src/http_connection/http_conn.cpp	0	88	info: client 18 init
+
+2023-08-04 18:49:02	INFO	../src/http_connection/http_conn.cpp	0	260	 m_method: 0
+  m_verson: HTTP/1.1
+  m_url :/jsondata
+  m_check_state 1
+
+2023-08-04 18:49:02	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+2023-08-04 18:49:02	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept: application/json, text/javascript, */*; q=0.01
+
+2023-08-04 18:49:02	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Encoding: gzip, deflate
+
+2023-08-04 18:49:02	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+
+2023-08-04 18:49:02	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Referer: http://1.14.69.237:10000/2login
+
+2023-08-04 18:49:02	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header X-Requested-With: XMLHttpRequest
+
+2023-08-04 18:49:02	INFO	../src/http_connection/http_conn.cpp	0	499	用户获取jsondata 数据 
+2023-08-04 18:49:02	INFO	../src/http_connection/http_conn.cpp	0	680	服务器写jsondata 数据 
+2023-08-04 18:49:02	INFO	../src/http_connection/http_conn.cpp	0	721	bytes_to_send 88
+
+2023-08-04 18:49:04	INFO	../src/http_connection/http_conn.cpp	0	88	info: client 18 init
+
+2023-08-04 18:49:04	INFO	../src/http_connection/http_conn.cpp	0	260	 m_method: 0
+  m_verson: HTTP/1.1
+  m_url :/jsondata
+  m_check_state 1
+
+2023-08-04 18:49:04	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+2023-08-04 18:49:04	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept: application/json, text/javascript, */*; q=0.01
+
+2023-08-04 18:49:04	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Encoding: gzip, deflate
+
+2023-08-04 18:49:04	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+
+2023-08-04 18:49:04	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Referer: http://1.14.69.237:10000/2login
+
+2023-08-04 18:49:04	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header X-Requested-With: XMLHttpRequest
+
+2023-08-04 18:49:04	INFO	../src/http_connection/http_conn.cpp	0	499	用户获取jsondata 数据 
+2023-08-04 18:49:04	INFO	../src/http_connection/http_conn.cpp	0	680	服务器写jsondata 数据 
+2023-08-04 18:49:04	INFO	../src/http_connection/http_conn.cpp	0	721	bytes_to_send 88
+
+2023-08-04 18:49:06	INFO	../src/http_connection/http_conn.cpp	0	88	info: client 18 init
+
+2023-08-04 18:49:06	INFO	../src/http_connection/http_conn.cpp	0	260	 m_method: 0
+  m_verson: HTTP/1.1
+  m_url :/jsondata
+  m_check_state 1
+
+2023-08-04 18:49:06	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+2023-08-04 18:49:06	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept: application/json, text/javascript, */*; q=0.01
+
+2023-08-04 18:49:06	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Encoding: gzip, deflate
+
+2023-08-04 18:49:06	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+
+2023-08-04 18:49:06	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Referer: http://1.14.69.237:10000/2login
+
+2023-08-04 18:49:06	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header X-Requested-With: XMLHttpRequest
+
+2023-08-04 18:49:06	INFO	../src/http_connection/http_conn.cpp	0	499	用户获取jsondata 数据 
+2023-08-04 18:49:06	INFO	../src/http_connection/http_conn.cpp	0	680	服务器写jsondata 数据 
+2023-08-04 18:49:06	INFO	../src/http_connection/http_conn.cpp	0	721	bytes_to_send 88
+
+2023-08-04 18:49:08	INFO	../src/http_connection/http_conn.cpp	0	88	info: client 18 init
+
+2023-08-04 18:49:08	INFO	../src/http_connection/http_conn.cpp	0	260	 m_method: 0
+  m_verson: HTTP/1.1
+  m_url :/jsondata
+  m_check_state 1
+
+2023-08-04 18:49:08	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+2023-08-04 18:49:08	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept: application/json, text/javascript, */*; q=0.01
+
+2023-08-04 18:49:08	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Encoding: gzip, deflate
+
+2023-08-04 18:49:08	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+
+2023-08-04 18:49:08	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Referer: http://1.14.69.237:10000/2login
+
+2023-08-04 18:49:08	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header X-Requested-With: XMLHttpRequest
+
+2023-08-04 18:49:08	INFO	../src/http_connection/http_conn.cpp	0	499	用户获取jsondata 数据 
+2023-08-04 18:49:08	INFO	../src/http_connection/http_conn.cpp	0	680	服务器写jsondata 数据 
+2023-08-04 18:49:08	INFO	../src/http_connection/http_conn.cpp	0	721	bytes_to_send 88
+
+2023-08-04 18:49:10	INFO	../src/http_connection/http_conn.cpp	0	88	info: client 18 init
+
+2023-08-04 18:49:10	INFO	../src/http_connection/http_conn.cpp	0	260	 m_method: 0
+  m_verson: HTTP/1.1
+  m_url :/jsondata
+  m_check_state 1
+
+2023-08-04 18:49:10	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+2023-08-04 18:49:10	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept: application/json, text/javascript, */*; q=0.01
+
+2023-08-04 18:49:10	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Encoding: gzip, deflate
+
+2023-08-04 18:49:10	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+
+2023-08-04 18:49:10	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Referer: http://1.14.69.237:10000/2login
+
+2023-08-04 18:49:10	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header X-Requested-With: XMLHttpRequest
+
+2023-08-04 18:49:10	INFO	../src/http_connection/http_conn.cpp	0	499	用户获取jsondata 数据 
+2023-08-04 18:49:10	INFO	../src/http_connection/http_conn.cpp	0	680	服务器写jsondata 数据 
+2023-08-04 18:49:10	INFO	../src/http_connection/http_conn.cpp	0	721	bytes_to_send 88
+
+2023-08-04 18:49:12	INFO	../src/http_connection/http_conn.cpp	0	88	info: client 18 init
+
+2023-08-04 18:49:12	INFO	../src/http_connection/http_conn.cpp	0	260	 m_method: 0
+  m_verson: HTTP/1.1
+  m_url :/jsondata
+  m_check_state 1
+
+2023-08-04 18:49:12	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+2023-08-04 18:49:12	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept: application/json, text/javascript, */*; q=0.01
+
+2023-08-04 18:49:12	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Encoding: gzip, deflate
+
+2023-08-04 18:49:12	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+
+2023-08-04 18:49:12	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Referer: http://1.14.69.237:10000/2login
+
+2023-08-04 18:49:12	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header X-Requested-With: XMLHttpRequest
+
+2023-08-04 18:49:12	INFO	../src/http_connection/http_conn.cpp	0	499	用户获取jsondata 数据 
+2023-08-04 18:49:12	INFO	../src/http_connection/http_conn.cpp	0	680	服务器写jsondata 数据 
+2023-08-04 18:49:12	INFO	../src/http_connection/http_conn.cpp	0	721	bytes_to_send 88
+
+2023-08-04 18:49:14	INFO	../src/http_connection/http_conn.cpp	0	88	info: client 18 init
+
+2023-08-04 18:49:14	INFO	../src/http_connection/http_conn.cpp	0	260	 m_method: 0
+  m_verson: HTTP/1.1
+  m_url :/jsondata
+  m_check_state 1
+
+2023-08-04 18:49:14	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+2023-08-04 18:49:14	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept: application/json, text/javascript, */*; q=0.01
+
+2023-08-04 18:49:14	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Encoding: gzip, deflate
+
+2023-08-04 18:49:14	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+
+2023-08-04 18:49:14	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Referer: http://1.14.69.237:10000/2login
+
+2023-08-04 18:49:14	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header X-Requested-With: XMLHttpRequest
+
+2023-08-04 18:49:14	INFO	../src/http_connection/http_conn.cpp	0	499	用户获取jsondata 数据 
+2023-08-04 18:49:14	INFO	../src/http_connection/http_conn.cpp	0	680	服务器写jsondata 数据 
+2023-08-04 18:49:14	INFO	../src/http_connection/http_conn.cpp	0	721	bytes_to_send 88
+
+2023-08-04 18:49:16	INFO	../src/http_connection/http_conn.cpp	0	88	info: client 18 init
+
+2023-08-04 18:49:16	INFO	../src/http_connection/http_conn.cpp	0	260	 m_method: 0
+  m_verson: HTTP/1.1
+  m_url :/jsondata
+  m_check_state 1
+
+2023-08-04 18:49:16	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+2023-08-04 18:49:16	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept: application/json, text/javascript, */*; q=0.01
+
+2023-08-04 18:49:16	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Encoding: gzip, deflate
+
+2023-08-04 18:49:16	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+
+2023-08-04 18:49:16	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Referer: http://1.14.69.237:10000/2login
+
+2023-08-04 18:49:16	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header X-Requested-With: XMLHttpRequest
+
+2023-08-04 18:49:16	INFO	../src/http_connection/http_conn.cpp	0	499	用户获取jsondata 数据 
+2023-08-04 18:49:16	INFO	../src/http_connection/http_conn.cpp	0	680	服务器写jsondata 数据 
+2023-08-04 18:49:16	INFO	../src/http_connection/http_conn.cpp	0	721	bytes_to_send 88
+
+2023-08-04 18:49:18	INFO	../src/http_connection/http_conn.cpp	0	88	info: client 18 init
+
+2023-08-04 18:49:18	INFO	../src/http_connection/http_conn.cpp	0	260	 m_method: 0
+  m_verson: HTTP/1.1
+  m_url :/jsondata
+  m_check_state 1
+
+2023-08-04 18:49:18	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+2023-08-04 18:49:18	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept: application/json, text/javascript, */*; q=0.01
+
+2023-08-04 18:49:18	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Encoding: gzip, deflate
+
+2023-08-04 18:49:18	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+
+2023-08-04 18:49:18	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Referer: http://1.14.69.237:10000/2login
+
+2023-08-04 18:49:18	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header X-Requested-With: XMLHttpRequest
+
+2023-08-04 18:49:18	INFO	../src/http_connection/http_conn.cpp	0	499	用户获取jsondata 数据 
+2023-08-04 18:49:18	INFO	../src/http_connection/http_conn.cpp	0	680	服务器写jsondata 数据 
+2023-08-04 18:49:18	INFO	../src/http_connection/http_conn.cpp	0	721	bytes_to_send 88
+
+2023-08-04 18:49:20	INFO	../src/http_connection/http_conn.cpp	0	88	info: client 18 init
+
+2023-08-04 18:49:20	INFO	../src/http_connection/http_conn.cpp	0	260	 m_method: 0
+  m_verson: HTTP/1.1
+  m_url :/jsondata
+  m_check_state 1
+
+2023-08-04 18:49:20	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+2023-08-04 18:49:20	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept: application/json, text/javascript, */*; q=0.01
+
+2023-08-04 18:49:20	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Encoding: gzip, deflate
+
+2023-08-04 18:49:20	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+
+2023-08-04 18:49:20	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Referer: http://1.14.69.237:10000/2login
+
+2023-08-04 18:49:20	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header X-Requested-With: XMLHttpRequest
+
+2023-08-04 18:49:20	INFO	../src/http_connection/http_conn.cpp	0	499	用户获取jsondata 数据 
+2023-08-04 18:49:20	INFO	../src/http_connection/http_conn.cpp	0	680	服务器写jsondata 数据 
+2023-08-04 18:49:20	INFO	../src/http_connection/http_conn.cpp	0	721	bytes_to_send 88
+
+2023-08-04 18:49:22	INFO	../src/http_connection/http_conn.cpp	0	88	info: client 18 init
+
+2023-08-04 18:49:22	INFO	../src/http_connection/http_conn.cpp	0	260	 m_method: 0
+  m_verson: HTTP/1.1
+  m_url :/jsondata
+  m_check_state 1
+
+2023-08-04 18:49:22	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+2023-08-04 18:49:22	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept: application/json, text/javascript, */*; q=0.01
+
+2023-08-04 18:49:22	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Encoding: gzip, deflate
+
+2023-08-04 18:49:22	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+
+2023-08-04 18:49:22	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Referer: http://1.14.69.237:10000/2login
+
+2023-08-04 18:49:22	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header X-Requested-With: XMLHttpRequest
+
+2023-08-04 18:49:22	INFO	../src/http_connection/http_conn.cpp	0	499	用户获取jsondata 数据 
+2023-08-04 18:49:22	INFO	../src/http_connection/http_conn.cpp	0	680	服务器写jsondata 数据 
+2023-08-04 18:49:22	INFO	../src/http_connection/http_conn.cpp	0	721	bytes_to_send 88
+
+2023-08-04 18:49:24	INFO	../src/http_connection/http_conn.cpp	0	88	info: client 18 init
+
+2023-08-04 18:49:24	INFO	../src/http_connection/http_conn.cpp	0	260	 m_method: 0
+  m_verson: HTTP/1.1
+  m_url :/jsondata
+  m_check_state 1
+
+2023-08-04 18:49:24	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+2023-08-04 18:49:24	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept: application/json, text/javascript, */*; q=0.01
+
+2023-08-04 18:49:24	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Encoding: gzip, deflate
+
+2023-08-04 18:49:24	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+
+2023-08-04 18:49:24	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Referer: http://1.14.69.237:10000/2login
+
+2023-08-04 18:49:24	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header X-Requested-With: XMLHttpRequest
+
+2023-08-04 18:49:24	INFO	../src/http_connection/http_conn.cpp	0	499	用户获取jsondata 数据 
+2023-08-04 18:49:24	INFO	../src/http_connection/http_conn.cpp	0	680	服务器写jsondata 数据 
+2023-08-04 18:49:24	INFO	../src/http_connection/http_conn.cpp	0	721	bytes_to_send 88
+
+2023-08-04 18:49:26	INFO	../src/http_connection/http_conn.cpp	0	88	info: client 18 init
+
+2023-08-04 18:49:26	INFO	../src/http_connection/http_conn.cpp	0	260	 m_method: 0
+  m_verson: HTTP/1.1
+  m_url :/jsondata
+  m_check_state 1
+
+2023-08-04 18:49:26	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+2023-08-04 18:49:26	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept: application/json, text/javascript, */*; q=0.01
+
+2023-08-04 18:49:26	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Encoding: gzip, deflate
+
+2023-08-04 18:49:26	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+
+2023-08-04 18:49:26	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Referer: http://1.14.69.237:10000/2login
+
+2023-08-04 18:49:26	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header X-Requested-With: XMLHttpRequest
+
+2023-08-04 18:49:26	INFO	../src/http_connection/http_conn.cpp	0	499	用户获取jsondata 数据 
+2023-08-04 18:49:26	INFO	../src/http_connection/http_conn.cpp	0	680	服务器写jsondata 数据 
+2023-08-04 18:49:26	INFO	../src/http_connection/http_conn.cpp	0	721	bytes_to_send 88
+
+2023-08-04 18:49:28	INFO	../src/http_connection/http_conn.cpp	0	88	info: client 18 init
+
+2023-08-04 18:49:28	INFO	../src/http_connection/http_conn.cpp	0	260	 m_method: 0
+  m_verson: HTTP/1.1
+  m_url :/jsondata
+  m_check_state 1
+
+2023-08-04 18:49:28	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+2023-08-04 18:49:28	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept: application/json, text/javascript, */*; q=0.01
+
+2023-08-04 18:49:28	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Encoding: gzip, deflate
+
+2023-08-04 18:49:28	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+
+2023-08-04 18:49:28	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Referer: http://1.14.69.237:10000/2login
+
+2023-08-04 18:49:28	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header X-Requested-With: XMLHttpRequest
+
+2023-08-04 18:49:28	INFO	../src/http_connection/http_conn.cpp	0	499	用户获取jsondata 数据 
+2023-08-04 18:49:28	INFO	../src/http_connection/http_conn.cpp	0	680	服务器写jsondata 数据 
+2023-08-04 18:49:28	INFO	../src/http_connection/http_conn.cpp	0	721	bytes_to_send 88
+
+2023-08-04 18:49:30	INFO	../src/http_connection/http_conn.cpp	0	88	info: client 18 init
+
+2023-08-04 18:49:30	INFO	../src/http_connection/http_conn.cpp	0	260	 m_method: 0
+  m_verson: HTTP/1.1
+  m_url :/jsondata
+  m_check_state 1
+
+2023-08-04 18:49:30	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+2023-08-04 18:49:30	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept: application/json, text/javascript, */*; q=0.01
+
+2023-08-04 18:49:30	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Encoding: gzip, deflate
+
+2023-08-04 18:49:30	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+
+2023-08-04 18:49:30	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Referer: http://1.14.69.237:10000/2login
+
+2023-08-04 18:49:30	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header X-Requested-With: XMLHttpRequest
+
+2023-08-04 18:49:30	INFO	../src/http_connection/http_conn.cpp	0	499	用户获取jsondata 数据 
+2023-08-04 18:49:30	INFO	../src/http_connection/http_conn.cpp	0	680	服务器写jsondata 数据 
+2023-08-04 18:49:30	INFO	../src/http_connection/http_conn.cpp	0	721	bytes_to_send 88
+
+2023-08-04 18:49:32	INFO	../src/http_connection/http_conn.cpp	0	88	info: client 18 init
+
+2023-08-04 18:49:32	INFO	../src/http_connection/http_conn.cpp	0	260	 m_method: 0
+  m_verson: HTTP/1.1
+  m_url :/jsondata
+  m_check_state 1
+
+2023-08-04 18:49:32	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+2023-08-04 18:49:32	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept: application/json, text/javascript, */*; q=0.01
+
+2023-08-04 18:49:32	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Encoding: gzip, deflate
+
+2023-08-04 18:49:32	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+
+2023-08-04 18:49:32	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Referer: http://1.14.69.237:10000/2login
+
+2023-08-04 18:49:32	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header X-Requested-With: XMLHttpRequest
+
+2023-08-04 18:49:32	INFO	../src/http_connection/http_conn.cpp	0	499	用户获取jsondata 数据 
+2023-08-04 18:49:32	INFO	../src/http_connection/http_conn.cpp	0	680	服务器写jsondata 数据 
+2023-08-04 18:49:32	INFO	../src/http_connection/http_conn.cpp	0	721	bytes_to_send 88
+
+2023-08-04 18:49:34	INFO	../src/http_connection/http_conn.cpp	0	88	info: client 18 init
+
+2023-08-04 18:49:34	INFO	../src/http_connection/http_conn.cpp	0	260	 m_method: 0
+  m_verson: HTTP/1.1
+  m_url :/jsondata
+  m_check_state 1
+
+2023-08-04 18:49:34	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+2023-08-04 18:49:34	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept: application/json, text/javascript, */*; q=0.01
+
+2023-08-04 18:49:34	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Encoding: gzip, deflate
+
+2023-08-04 18:49:34	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+
+2023-08-04 18:49:34	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Referer: http://1.14.69.237:10000/2login
+
+2023-08-04 18:49:34	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header X-Requested-With: XMLHttpRequest
+
+2023-08-04 18:49:34	INFO	../src/http_connection/http_conn.cpp	0	499	用户获取jsondata 数据 
+2023-08-04 18:49:34	INFO	../src/http_connection/http_conn.cpp	0	680	服务器写jsondata 数据 
+2023-08-04 18:49:34	INFO	../src/http_connection/http_conn.cpp	0	721	bytes_to_send 88
+
+2023-08-04 18:49:36	INFO	../src/http_connection/http_conn.cpp	0	88	info: client 18 init
+
+2023-08-04 18:49:36	INFO	../src/http_connection/http_conn.cpp	0	260	 m_method: 0
+  m_verson: HTTP/1.1
+  m_url :/jsondata
+  m_check_state 1
+
+2023-08-04 18:49:36	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+2023-08-04 18:49:36	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept: application/json, text/javascript, */*; q=0.01
+
+2023-08-04 18:49:36	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Encoding: gzip, deflate
+
+2023-08-04 18:49:36	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+
+2023-08-04 18:49:36	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Referer: http://1.14.69.237:10000/2login
+
+2023-08-04 18:49:36	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header X-Requested-With: XMLHttpRequest
+
+2023-08-04 18:49:36	INFO	../src/http_connection/http_conn.cpp	0	499	用户获取jsondata 数据 
+2023-08-04 18:49:36	INFO	../src/http_connection/http_conn.cpp	0	680	服务器写jsondata 数据 
+2023-08-04 18:49:36	INFO	../src/http_connection/http_conn.cpp	0	721	bytes_to_send 88
+
+2023-08-04 18:49:38	INFO	../src/http_connection/http_conn.cpp	0	88	info: client 18 init
+
+2023-08-04 18:49:38	INFO	../src/http_connection/http_conn.cpp	0	260	 m_method: 0
+  m_verson: HTTP/1.1
+  m_url :/jsondata
+  m_check_state 1
+
+2023-08-04 18:49:38	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+2023-08-04 18:49:38	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept: application/json, text/javascript, */*; q=0.01
+
+2023-08-04 18:49:38	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Encoding: gzip, deflate
+
+2023-08-04 18:49:38	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+
+2023-08-04 18:49:38	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Referer: http://1.14.69.237:10000/2login
+
+2023-08-04 18:49:38	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header X-Requested-With: XMLHttpRequest
+
+2023-08-04 18:49:38	INFO	../src/http_connection/http_conn.cpp	0	499	用户获取jsondata 数据 
+2023-08-04 18:49:38	INFO	../src/http_connection/http_conn.cpp	0	680	服务器写jsondata 数据 
+2023-08-04 18:49:38	INFO	../src/http_connection/http_conn.cpp	0	721	bytes_to_send 88
+
+2023-08-04 18:49:40	INFO	../src/http_connection/http_conn.cpp	0	88	info: client 18 init
+
+2023-08-04 18:49:40	INFO	../src/http_connection/http_conn.cpp	0	260	 m_method: 0
+  m_verson: HTTP/1.1
+  m_url :/jsondata
+  m_check_state 1
+
+2023-08-04 18:49:40	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+2023-08-04 18:49:40	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept: application/json, text/javascript, */*; q=0.01
+
+2023-08-04 18:49:40	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Encoding: gzip, deflate
+
+2023-08-04 18:49:40	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+
+2023-08-04 18:49:40	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Referer: http://1.14.69.237:10000/2login
+
+2023-08-04 18:49:40	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header X-Requested-With: XMLHttpRequest
+
+2023-08-04 18:49:40	INFO	../src/http_connection/http_conn.cpp	0	499	用户获取jsondata 数据 
+2023-08-04 18:49:40	INFO	../src/http_connection/http_conn.cpp	0	680	服务器写jsondata 数据 
+2023-08-04 18:49:40	INFO	../src/http_connection/http_conn.cpp	0	721	bytes_to_send 88
+
+2023-08-04 18:49:42	INFO	../src/http_connection/http_conn.cpp	0	88	info: client 18 init
+
+2023-08-04 18:49:42	INFO	../src/http_connection/http_conn.cpp	0	260	 m_method: 0
+  m_verson: HTTP/1.1
+  m_url :/jsondata
+  m_check_state 1
+
+2023-08-04 18:49:42	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+2023-08-04 18:49:42	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept: application/json, text/javascript, */*; q=0.01
+
+2023-08-04 18:49:42	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Encoding: gzip, deflate
+
+2023-08-04 18:49:42	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+
+2023-08-04 18:49:42	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Referer: http://1.14.69.237:10000/2login
+
+2023-08-04 18:49:42	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header X-Requested-With: XMLHttpRequest
+
+2023-08-04 18:49:42	INFO	../src/http_connection/http_conn.cpp	0	499	用户获取jsondata 数据 
+2023-08-04 18:49:42	INFO	../src/http_connection/http_conn.cpp	0	680	服务器写jsondata 数据 
+2023-08-04 18:49:42	INFO	../src/http_connection/http_conn.cpp	0	721	bytes_to_send 88
+
+2023-08-04 18:49:44	INFO	../src/http_connection/http_conn.cpp	0	88	info: client 18 init
+
+2023-08-04 18:49:44	INFO	../src/http_connection/http_conn.cpp	0	260	 m_method: 0
+  m_verson: HTTP/1.1
+  m_url :/jsondata
+  m_check_state 1
+
+2023-08-04 18:49:44	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+2023-08-04 18:49:44	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept: application/json, text/javascript, */*; q=0.01
+
+2023-08-04 18:49:44	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Encoding: gzip, deflate
+
+2023-08-04 18:49:44	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+
+2023-08-04 18:49:44	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Referer: http://1.14.69.237:10000/2login
+
+2023-08-04 18:49:44	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header X-Requested-With: XMLHttpRequest
+
+2023-08-04 18:49:44	INFO	../src/http_connection/http_conn.cpp	0	499	用户获取jsondata 数据 
+2023-08-04 18:49:44	INFO	../src/http_connection/http_conn.cpp	0	680	服务器写jsondata 数据 
+2023-08-04 18:49:44	INFO	../src/http_connection/http_conn.cpp	0	721	bytes_to_send 88
+
+2023-08-04 18:49:46	INFO	../src/http_connection/http_conn.cpp	0	88	info: client 18 init
+
+2023-08-04 18:49:46	INFO	../src/http_connection/http_conn.cpp	0	260	 m_method: 0
+  m_verson: HTTP/1.1
+  m_url :/jsondata
+  m_check_state 1
+
+2023-08-04 18:49:46	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+2023-08-04 18:49:46	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept: application/json, text/javascript, */*; q=0.01
+
+2023-08-04 18:49:46	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Encoding: gzip, deflate
+
+2023-08-04 18:49:46	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+
+2023-08-04 18:49:46	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Referer: http://1.14.69.237:10000/2login
+
+2023-08-04 18:49:46	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header X-Requested-With: XMLHttpRequest
+
+2023-08-04 18:49:46	INFO	../src/http_connection/http_conn.cpp	0	499	用户获取jsondata 数据 
+2023-08-04 18:49:46	INFO	../src/http_connection/http_conn.cpp	0	680	服务器写jsondata 数据 
+2023-08-04 18:49:46	INFO	../src/http_connection/http_conn.cpp	0	721	bytes_to_send 88
+
+2023-08-04 18:49:48	INFO	../src/http_connection/http_conn.cpp	0	88	info: client 18 init
+
+2023-08-04 18:49:48	INFO	../src/http_connection/http_conn.cpp	0	260	 m_method: 0
+  m_verson: HTTP/1.1
+  m_url :/jsondata
+  m_check_state 1
+
+2023-08-04 18:49:48	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+2023-08-04 18:49:48	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept: application/json, text/javascript, */*; q=0.01
+
+2023-08-04 18:49:48	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Encoding: gzip, deflate
+
+2023-08-04 18:49:48	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+
+2023-08-04 18:49:48	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Referer: http://1.14.69.237:10000/2login
+
+2023-08-04 18:49:48	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header X-Requested-With: XMLHttpRequest
+
+2023-08-04 18:49:48	INFO	../src/http_connection/http_conn.cpp	0	499	用户获取jsondata 数据 
+2023-08-04 18:49:48	INFO	../src/http_connection/http_conn.cpp	0	680	服务器写jsondata 数据 
+2023-08-04 18:49:48	INFO	../src/http_connection/http_conn.cpp	0	721	bytes_to_send 88
+
+2023-08-04 18:49:50	INFO	../src/http_connection/http_conn.cpp	0	88	info: client 18 init
+
+2023-08-04 18:49:50	INFO	../src/http_connection/http_conn.cpp	0	260	 m_method: 0
+  m_verson: HTTP/1.1
+  m_url :/jsondata
+  m_check_state 1
+
+2023-08-04 18:49:50	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+2023-08-04 18:49:50	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept: application/json, text/javascript, */*; q=0.01
+
+2023-08-04 18:49:50	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Encoding: gzip, deflate
+
+2023-08-04 18:49:50	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+
+2023-08-04 18:49:50	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Referer: http://1.14.69.237:10000/2login
+
+2023-08-04 18:49:50	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header X-Requested-With: XMLHttpRequest
+
+2023-08-04 18:49:50	INFO	../src/http_connection/http_conn.cpp	0	499	用户获取jsondata 数据 
+2023-08-04 18:49:50	INFO	../src/http_connection/http_conn.cpp	0	680	服务器写jsondata 数据 
+2023-08-04 18:49:50	INFO	../src/http_connection/http_conn.cpp	0	721	bytes_to_send 88
+
+2023-08-04 18:49:52	INFO	../src/http_connection/http_conn.cpp	0	88	info: client 18 init
+
+2023-08-04 18:49:52	INFO	../src/http_connection/http_conn.cpp	0	260	 m_method: 0
+  m_verson: HTTP/1.1
+  m_url :/jsondata
+  m_check_state 1
+
+2023-08-04 18:49:52	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+2023-08-04 18:49:52	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept: application/json, text/javascript, */*; q=0.01
+
+2023-08-04 18:49:52	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Encoding: gzip, deflate
+
+2023-08-04 18:49:52	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+
+2023-08-04 18:49:52	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Referer: http://1.14.69.237:10000/2login
+
+2023-08-04 18:49:52	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header X-Requested-With: XMLHttpRequest
+
+2023-08-04 18:49:52	INFO	../src/http_connection/http_conn.cpp	0	499	用户获取jsondata 数据 
+2023-08-04 18:49:52	INFO	../src/http_connection/http_conn.cpp	0	680	服务器写jsondata 数据 
+2023-08-04 18:49:52	INFO	../src/http_connection/http_conn.cpp	0	721	bytes_to_send 88
+
+2023-08-04 18:49:54	INFO	../src/http_connection/http_conn.cpp	0	88	info: client 18 init
+
+2023-08-04 18:49:54	INFO	../src/http_connection/http_conn.cpp	0	260	 m_method: 0
+  m_verson: HTTP/1.1
+  m_url :/jsondata
+  m_check_state 1
+
+2023-08-04 18:49:54	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+2023-08-04 18:49:54	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept: application/json, text/javascript, */*; q=0.01
+
+2023-08-04 18:49:54	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Encoding: gzip, deflate
+
+2023-08-04 18:49:54	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+
+2023-08-04 18:49:54	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Referer: http://1.14.69.237:10000/2login
+
+2023-08-04 18:49:54	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header X-Requested-With: XMLHttpRequest
+
+2023-08-04 18:49:54	INFO	../src/http_connection/http_conn.cpp	0	499	用户获取jsondata 数据 
+2023-08-04 18:49:54	INFO	../src/http_connection/http_conn.cpp	0	680	服务器写jsondata 数据 
+2023-08-04 18:49:54	INFO	../src/http_connection/http_conn.cpp	0	721	bytes_to_send 88
+
+2023-08-04 18:49:56	INFO	../src/http_connection/http_conn.cpp	0	88	info: client 18 init
+
+2023-08-04 18:49:56	INFO	../src/http_connection/http_conn.cpp	0	260	 m_method: 0
+  m_verson: HTTP/1.1
+  m_url :/jsondata
+  m_check_state 1
+
+2023-08-04 18:49:56	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+2023-08-04 18:49:56	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept: application/json, text/javascript, */*; q=0.01
+
+2023-08-04 18:49:56	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Encoding: gzip, deflate
+
+2023-08-04 18:49:56	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+
+2023-08-04 18:49:56	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Referer: http://1.14.69.237:10000/2login
+
+2023-08-04 18:49:56	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header X-Requested-With: XMLHttpRequest
+
+2023-08-04 18:49:56	INFO	../src/http_connection/http_conn.cpp	0	499	用户获取jsondata 数据 
+2023-08-04 18:49:56	INFO	../src/http_connection/http_conn.cpp	0	680	服务器写jsondata 数据 
+2023-08-04 18:49:56	INFO	../src/http_connection/http_conn.cpp	0	721	bytes_to_send 88
+
+2023-08-04 18:49:58	INFO	../src/http_connection/http_conn.cpp	0	88	info: client 18 init
+
+2023-08-04 18:49:58	INFO	../src/http_connection/http_conn.cpp	0	260	 m_method: 0
+  m_verson: HTTP/1.1
+  m_url :/jsondata
+  m_check_state 1
+
+2023-08-04 18:49:58	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+2023-08-04 18:49:58	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept: application/json, text/javascript, */*; q=0.01
+
+2023-08-04 18:49:58	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Encoding: gzip, deflate
+
+2023-08-04 18:49:58	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+
+2023-08-04 18:49:58	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Referer: http://1.14.69.237:10000/2login
+
+2023-08-04 18:49:58	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header X-Requested-With: XMLHttpRequest
+
+2023-08-04 18:49:58	INFO	../src/http_connection/http_conn.cpp	0	499	用户获取jsondata 数据 
+2023-08-04 18:49:58	INFO	../src/http_connection/http_conn.cpp	0	680	服务器写jsondata 数据 
+2023-08-04 18:49:58	INFO	../src/http_connection/http_conn.cpp	0	721	bytes_to_send 88
+
+2023-08-04 18:50:17	INFO	../src/http_connection/http_conn.cpp	0	88	info: client 18 init
+
+2023-08-04 18:50:17	INFO	../src/http_connection/http_conn.cpp	0	260	 m_method: 0
+  m_verson: HTTP/1.1
+  m_url :/jsondata
+  m_check_state 1
+
+2023-08-04 18:50:17	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+2023-08-04 18:50:17	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept: application/json, text/javascript, */*; q=0.01
+
+2023-08-04 18:50:17	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Encoding: gzip, deflate
+
+2023-08-04 18:50:17	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+
+2023-08-04 18:50:17	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Referer: http://1.14.69.237:10000/2login
+
+2023-08-04 18:50:17	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header X-Requested-With: XMLHttpRequest
+
+2023-08-04 18:50:17	INFO	../src/http_connection/http_conn.cpp	0	499	用户获取jsondata 数据 
+2023-08-04 18:50:17	INFO	../src/http_connection/http_conn.cpp	0	680	服务器写jsondata 数据 
+2023-08-04 18:50:17	INFO	../src/http_connection/http_conn.cpp	0	721	bytes_to_send 88
+
+2023-08-04 18:50:18	INFO	../src/http_connection/http_conn.cpp	0	88	info: client 18 init
+
+2023-08-04 18:50:18	INFO	../src/http_connection/http_conn.cpp	0	260	 m_method: 0
+  m_verson: HTTP/1.1
+  m_url :/jsondata
+  m_check_state 1
+
+2023-08-04 18:50:18	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+2023-08-04 18:50:18	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept: application/json, text/javascript, */*; q=0.01
+
+2023-08-04 18:50:18	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Encoding: gzip, deflate
+
+2023-08-04 18:50:18	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+
+2023-08-04 18:50:18	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Referer: http://1.14.69.237:10000/2login
+
+2023-08-04 18:50:18	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header X-Requested-With: XMLHttpRequest
+
+2023-08-04 18:50:18	INFO	../src/http_connection/http_conn.cpp	0	499	用户获取jsondata 数据 
+2023-08-04 18:50:18	INFO	../src/http_connection/http_conn.cpp	0	680	服务器写jsondata 数据 
+2023-08-04 18:50:18	INFO	../src/http_connection/http_conn.cpp	0	721	bytes_to_send 88
+
+2023-08-04 18:50:20	INFO	../src/http_connection/http_conn.cpp	0	88	info: client 18 init
+
+2023-08-04 18:50:20	INFO	../src/http_connection/http_conn.cpp	0	260	 m_method: 0
+  m_verson: HTTP/1.1
+  m_url :/jsondata
+  m_check_state 1
+
+2023-08-04 18:50:20	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+2023-08-04 18:50:20	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept: application/json, text/javascript, */*; q=0.01
+
+2023-08-04 18:50:20	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Encoding: gzip, deflate
+
+2023-08-04 18:50:20	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+
+2023-08-04 18:50:20	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Referer: http://1.14.69.237:10000/2login
+
+2023-08-04 18:50:20	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header X-Requested-With: XMLHttpRequest
+
+2023-08-04 18:50:20	INFO	../src/http_connection/http_conn.cpp	0	499	用户获取jsondata 数据 
+2023-08-04 18:50:20	INFO	../src/http_connection/http_conn.cpp	0	680	服务器写jsondata 数据 
+2023-08-04 18:50:20	INFO	../src/http_connection/http_conn.cpp	0	721	bytes_to_send 88
+
+2023-08-04 18:50:22	INFO	../src/http_connection/http_conn.cpp	0	88	info: client 18 init
+
+2023-08-04 18:50:22	INFO	../src/http_connection/http_conn.cpp	0	260	 m_method: 0
+  m_verson: HTTP/1.1
+  m_url :/jsondata
+  m_check_state 1
+
+2023-08-04 18:50:22	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+2023-08-04 18:50:22	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept: application/json, text/javascript, */*; q=0.01
+
+2023-08-04 18:50:22	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Encoding: gzip, deflate
+
+2023-08-04 18:50:22	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+
+2023-08-04 18:50:22	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Referer: http://1.14.69.237:10000/2login
+
+2023-08-04 18:50:22	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header X-Requested-With: XMLHttpRequest
+
+2023-08-04 18:50:22	INFO	../src/http_connection/http_conn.cpp	0	499	用户获取jsondata 数据 
+2023-08-04 18:50:22	INFO	../src/http_connection/http_conn.cpp	0	680	服务器写jsondata 数据 
+2023-08-04 18:50:22	INFO	../src/http_connection/http_conn.cpp	0	721	bytes_to_send 88
+
+2023-08-04 18:50:22	INFO	../src/http_connection/http_conn.cpp	0	88	info: client 21 init
+
+2023-08-04 18:50:22	INFO	../src/http_connection/http_conn.cpp	0	260	 m_method: 0
+  m_verson: HTTP/1.1
+  m_url :/logandreg.html
+  m_check_state 1
+
+2023-08-04 18:50:22	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+
+2023-08-04 18:50:22	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+
+2023-08-04 18:50:22	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Encoding: gzip, deflate
+
+2023-08-04 18:50:22	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-HK;q=0.6,zh-TW;q=0.5
+
+2023-08-04 18:50:22	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Cookie: b-user-id=4496aa4c-4dd7-7ae2-2cb3-3ebe8d882912
+
+2023-08-04 18:50:22	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Purpose: prefetch
+
+2023-08-04 18:50:22	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Sec-Purpose: prefetch;prerender
+
+2023-08-04 18:50:22	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Upgrade-Insecure-Requests: 1
+
+2023-08-04 18:50:22	INFO	../src/http_connection/http_conn.cpp	0	721	bytes_to_send 3936
+
+2023-08-04 18:50:24	INFO	../src/http_connection/http_conn.cpp	0	88	info: client 18 init
+
+2023-08-04 18:50:24	INFO	../src/http_connection/http_conn.cpp	0	260	 m_method: 0
+  m_verson: HTTP/1.1
+  m_url :/jsondata
+  m_check_state 1
+
+2023-08-04 18:50:24	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+2023-08-04 18:50:24	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept: application/json, text/javascript, */*; q=0.01
+
+2023-08-04 18:50:24	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Encoding: gzip, deflate
+
+2023-08-04 18:50:24	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+
+2023-08-04 18:50:24	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Referer: http://1.14.69.237:10000/2login
+
+2023-08-04 18:50:24	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header X-Requested-With: XMLHttpRequest
+
+2023-08-04 18:50:24	INFO	../src/http_connection/http_conn.cpp	0	499	用户获取jsondata 数据 
+2023-08-04 18:50:24	INFO	../src/http_connection/http_conn.cpp	0	680	服务器写jsondata 数据 
+2023-08-04 18:50:24	INFO	../src/http_connection/http_conn.cpp	0	721	bytes_to_send 88
+
+2023-08-04 18:50:25	INFO	../src/http_connection/http_conn.cpp	0	88	info: client 18 init
+
+2023-08-04 18:50:25	INFO	../src/http_connection/http_conn.cpp	0	260	 m_method: 0
+  m_verson: HTTP/1.1
+  m_url :/2login
+  m_check_state 1
+
+2023-08-04 18:50:25	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+
+2023-08-04 18:50:25	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+
+2023-08-04 18:50:25	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Encoding: gzip, deflate
+
+2023-08-04 18:50:25	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-HK;q=0.6,zh-TW;q=0.5
+
+2023-08-04 18:50:25	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Cookie: b-user-id=4496aa4c-4dd7-7ae2-2cb3-3ebe8d882912
+
+2023-08-04 18:50:25	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Upgrade-Insecure-Requests: 1
+
+2023-08-04 18:51:24	INFO	../src/main.cpp	0	45	http server init 
+2023-08-04 18:51:24	INFO	../src/main.cpp	0	46	user : root, database : mysql
+2023-08-04 18:51:24	INFO	../src/http_connection/http_conn.cpp	0	88	info: client 18 init
+
+2023-08-04 18:51:24	INFO	../src/http_connection/http_conn.cpp	0	260	 m_method: 0
+  m_verson: HTTP/1.1
+  m_url :/jsondata
+  m_check_state 1
+
+2023-08-04 18:51:24	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+2023-08-04 18:51:24	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept: application/json, text/javascript, */*; q=0.01
+
+2023-08-04 18:51:24	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Encoding: gzip, deflate
+
+2023-08-04 18:51:24	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+
+2023-08-04 18:51:24	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Referer: http://1.14.69.237:10000/2login
+
+2023-08-04 18:51:24	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header X-Requested-With: XMLHttpRequest
+
+2023-08-04 18:51:24	INFO	../src/http_connection/http_conn.cpp	0	499	用户获取jsondata 数据 
+2023-08-04 18:51:24	INFO	../src/http_connection/http_conn.cpp	0	680	服务器写jsondata 数据 
+2023-08-04 18:51:24	INFO	../src/http_connection/http_conn.cpp	0	721	bytes_to_send 88
+
+2023-08-04 18:51:24	INFO	../src/http_connection/http_conn.cpp	0	88	info: client 18 init
+
+2023-08-04 18:51:24	INFO	../src/http_connection/http_conn.cpp	0	260	 m_method: 0
+  m_verson: HTTP/1.1
+  m_url :/jsondata
+  m_check_state 1
+
+2023-08-04 18:51:24	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+2023-08-04 18:51:24	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept: application/json, text/javascript, */*; q=0.01
+
+2023-08-04 18:51:24	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Encoding: gzip, deflate
+
+2023-08-04 18:51:24	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+
+2023-08-04 18:51:24	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Referer: http://1.14.69.237:10000/2login
+
+2023-08-04 18:51:24	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header X-Requested-With: XMLHttpRequest
+
+2023-08-04 18:51:24	INFO	../src/http_connection/http_conn.cpp	0	499	用户获取jsondata 数据 
+2023-08-04 18:51:24	INFO	../src/http_connection/http_conn.cpp	0	680	服务器写jsondata 数据 
+2023-08-04 18:51:24	INFO	../src/http_connection/http_conn.cpp	0	721	bytes_to_send 88
+
+2023-08-04 18:51:25	INFO	../src/http_connection/http_conn.cpp	0	88	info: client 18 init
+
+2023-08-04 18:51:25	INFO	../src/http_connection/http_conn.cpp	0	260	 m_method: 0
+  m_verson: HTTP/1.1
+  m_url :/jsondata
+  m_check_state 1
+
+2023-08-04 18:51:25	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+2023-08-04 18:51:25	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept: application/json, text/javascript, */*; q=0.01
+
+2023-08-04 18:51:25	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Encoding: gzip, deflate
+
+2023-08-04 18:51:25	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+
+2023-08-04 18:51:25	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Referer: http://1.14.69.237:10000/2login
+
+2023-08-04 18:51:25	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header X-Requested-With: XMLHttpRequest
+
+2023-08-04 18:51:25	INFO	../src/http_connection/http_conn.cpp	0	499	用户获取jsondata 数据 
+2023-08-04 18:51:25	INFO	../src/http_connection/http_conn.cpp	0	680	服务器写jsondata 数据 
+2023-08-04 18:51:25	INFO	../src/http_connection/http_conn.cpp	0	721	bytes_to_send 88
+
+2023-08-04 18:51:25	INFO	../src/http_connection/http_conn.cpp	0	88	info: client 18 init
+
+2023-08-04 18:51:25	INFO	../src/http_connection/http_conn.cpp	0	260	 m_method: 0
+  m_verson: HTTP/1.1
+  m_url :/jsondata
+  m_check_state 1
+
+2023-08-04 18:51:25	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+2023-08-04 18:51:25	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept: application/json, text/javascript, */*; q=0.01
+
+2023-08-04 18:51:25	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Encoding: gzip, deflate
+
+2023-08-04 18:51:25	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+
+2023-08-04 18:51:25	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Referer: http://1.14.69.237:10000/2login
+
+2023-08-04 18:51:25	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header X-Requested-With: XMLHttpRequest
+
+2023-08-04 18:51:25	INFO	../src/http_connection/http_conn.cpp	0	499	用户获取jsondata 数据 
+2023-08-04 18:51:25	INFO	../src/http_connection/http_conn.cpp	0	680	服务器写jsondata 数据 
+2023-08-04 18:51:25	INFO	../src/http_connection/http_conn.cpp	0	721	bytes_to_send 88
+
+2023-08-04 18:51:25	INFO	../src/http_connection/http_conn.cpp	0	88	info: client 18 init
+
+2023-08-04 18:51:25	INFO	../src/http_connection/http_conn.cpp	0	260	 m_method: 0
+  m_verson: HTTP/1.1
+  m_url :/jsondata
+  m_check_state 1
+
+2023-08-04 18:51:25	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+2023-08-04 18:51:25	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept: application/json, text/javascript, */*; q=0.01
+
+2023-08-04 18:51:25	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Encoding: gzip, deflate
+
+2023-08-04 18:51:25	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+
+2023-08-04 18:51:25	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Referer: http://1.14.69.237:10000/2login
+
+2023-08-04 18:51:25	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header X-Requested-With: XMLHttpRequest
+
+2023-08-04 18:51:25	INFO	../src/http_connection/http_conn.cpp	0	499	用户获取jsondata 数据 
+2023-08-04 18:51:25	INFO	../src/http_connection/http_conn.cpp	0	680	服务器写jsondata 数据 
+2023-08-04 18:51:25	INFO	../src/http_connection/http_conn.cpp	0	721	bytes_to_send 88
+
+2023-08-04 18:51:26	INFO	../src/http_connection/http_conn.cpp	0	88	info: client 18 init
+
+2023-08-04 18:51:26	INFO	../src/http_connection/http_conn.cpp	0	260	 m_method: 0
+  m_verson: HTTP/1.1
+  m_url :/jsondata
+  m_check_state 1
+
+2023-08-04 18:51:26	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+2023-08-04 18:51:26	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept: application/json, text/javascript, */*; q=0.01
+
+2023-08-04 18:51:26	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Encoding: gzip, deflate
+
+2023-08-04 18:51:26	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+
+2023-08-04 18:51:26	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Referer: http://1.14.69.237:10000/2login
+
+2023-08-04 18:51:26	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header X-Requested-With: XMLHttpRequest
+
+2023-08-04 18:51:26	INFO	../src/http_connection/http_conn.cpp	0	499	用户获取jsondata 数据 
+2023-08-04 18:51:26	INFO	../src/http_connection/http_conn.cpp	0	680	服务器写jsondata 数据 
+2023-08-04 18:51:26	INFO	../src/http_connection/http_conn.cpp	0	721	bytes_to_send 88
+
+2023-08-04 18:51:28	INFO	../src/http_connection/http_conn.cpp	0	88	info: client 18 init
+
+2023-08-04 18:51:28	INFO	../src/http_connection/http_conn.cpp	0	260	 m_method: 0
+  m_verson: HTTP/1.1
+  m_url :/jsondata
+  m_check_state 1
+
+2023-08-04 18:51:28	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+2023-08-04 18:51:28	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept: application/json, text/javascript, */*; q=0.01
+
+2023-08-04 18:51:28	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Encoding: gzip, deflate
+
+2023-08-04 18:51:28	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+
+2023-08-04 18:51:28	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Referer: http://1.14.69.237:10000/2login
+
+2023-08-04 18:51:28	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header X-Requested-With: XMLHttpRequest
+
+2023-08-04 18:51:28	INFO	../src/http_connection/http_conn.cpp	0	499	用户获取jsondata 数据 
+2023-08-04 18:51:28	INFO	../src/http_connection/http_conn.cpp	0	680	服务器写jsondata 数据 
+2023-08-04 18:51:28	INFO	../src/http_connection/http_conn.cpp	0	721	bytes_to_send 88
+
+2023-08-04 18:51:30	INFO	../src/http_connection/http_conn.cpp	0	88	info: client 18 init
+
+2023-08-04 18:51:30	INFO	../src/http_connection/http_conn.cpp	0	260	 m_method: 0
+  m_verson: HTTP/1.1
+  m_url :/jsondata
+  m_check_state 1
+
+2023-08-04 18:51:30	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+2023-08-04 18:51:30	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept: application/json, text/javascript, */*; q=0.01
+
+2023-08-04 18:51:30	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Encoding: gzip, deflate
+
+2023-08-04 18:51:30	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+
+2023-08-04 18:51:30	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Referer: http://1.14.69.237:10000/2login
+
+2023-08-04 18:51:30	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header X-Requested-With: XMLHttpRequest
+
+2023-08-04 18:51:30	INFO	../src/http_connection/http_conn.cpp	0	499	用户获取jsondata 数据 
+2023-08-04 18:51:30	INFO	../src/http_connection/http_conn.cpp	0	680	服务器写jsondata 数据 
+2023-08-04 18:51:30	INFO	../src/http_connection/http_conn.cpp	0	721	bytes_to_send 88
+
+2023-08-04 18:51:32	INFO	../src/http_connection/http_conn.cpp	0	88	info: client 18 init
+
+2023-08-04 18:51:32	INFO	../src/http_connection/http_conn.cpp	0	260	 m_method: 0
+  m_verson: HTTP/1.1
+  m_url :/jsondata
+  m_check_state 1
+
+2023-08-04 18:51:32	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+2023-08-04 18:51:32	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept: application/json, text/javascript, */*; q=0.01
+
+2023-08-04 18:51:32	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Encoding: gzip, deflate
+
+2023-08-04 18:51:32	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+
+2023-08-04 18:51:32	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Referer: http://1.14.69.237:10000/2login
+
+2023-08-04 18:51:32	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header X-Requested-With: XMLHttpRequest
+
+2023-08-04 18:51:32	INFO	../src/http_connection/http_conn.cpp	0	499	用户获取jsondata 数据 
+2023-08-04 18:51:32	INFO	../src/http_connection/http_conn.cpp	0	680	服务器写jsondata 数据 
+2023-08-04 18:51:32	INFO	../src/http_connection/http_conn.cpp	0	721	bytes_to_send 88
+
+2023-08-04 18:51:34	INFO	../src/http_connection/http_conn.cpp	0	88	info: client 18 init
+
+2023-08-04 18:51:34	INFO	../src/http_connection/http_conn.cpp	0	260	 m_method: 0
+  m_verson: HTTP/1.1
+  m_url :/jsondata
+  m_check_state 1
+
+2023-08-04 18:51:34	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+2023-08-04 18:51:34	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept: application/json, text/javascript, */*; q=0.01
+
+2023-08-04 18:51:34	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Encoding: gzip, deflate
+
+2023-08-04 18:51:34	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+
+2023-08-04 18:51:34	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Referer: http://1.14.69.237:10000/2login
+
+2023-08-04 18:51:34	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header X-Requested-With: XMLHttpRequest
+
+2023-08-04 18:51:34	INFO	../src/http_connection/http_conn.cpp	0	499	用户获取jsondata 数据 
+2023-08-04 18:51:34	INFO	../src/http_connection/http_conn.cpp	0	680	服务器写jsondata 数据 
+2023-08-04 18:51:34	INFO	../src/http_connection/http_conn.cpp	0	721	bytes_to_send 88
+
+2023-08-04 18:51:36	INFO	../src/http_connection/http_conn.cpp	0	88	info: client 18 init
+
+2023-08-04 18:51:36	INFO	../src/http_connection/http_conn.cpp	0	260	 m_method: 0
+  m_verson: HTTP/1.1
+  m_url :/jsondata
+  m_check_state 1
+
+2023-08-04 18:51:36	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+2023-08-04 18:51:36	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept: application/json, text/javascript, */*; q=0.01
+
+2023-08-04 18:51:36	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Encoding: gzip, deflate
+
+2023-08-04 18:51:36	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+
+2023-08-04 18:51:36	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header Referer: http://1.14.69.237:10000/2login
+
+2023-08-04 18:51:36	ERROR	../src/http_connection/http_conn.cpp	0	302	oop! unknow header X-Requested-With: XMLHttpRequest
+
+2023-08-04 18:51:36	INFO	../src/http_connection/http_conn.cpp	0	499	用户获取jsondata 数据 
+2023-08-04 18:51:36	INFO	../src/http_connection/http_conn.cpp	0	680	服务器写jsondata 数据 
+2023-08-04 18:51:36	INFO	../src/http_connection/http_conn.cpp	0	721	bytes_to_send 88
+
