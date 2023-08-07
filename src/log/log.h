@@ -43,7 +43,7 @@
     if(logger->getLevel() <= level) \
         rtdm::LogEventWrap(rtdm::LogEvent::ptr(new rtdm::LogEvent(logger, level, \
                         __FILE__, __LINE__, 0, 0,\
-                0, time(0),"thread 1"))).getSS()
+                0, time(0),"stdout"))).getSS()
 
 /**
  * @brief 使用流式方式将不同日志级别的日志写入到logger
@@ -69,7 +69,7 @@
     if(logger->getLevel() <= level) \
         rtdm::LogEventWrap(rtdm::LogEvent::ptr(new rtdm::LogEvent(logger, level, \
                         __FILE__, __LINE__, 0, 0,\
-                0, time(0), "thread 1"))).getEvent()->format(fmt, __VA_ARGS__)
+                0, time(0), "stdout"))).getEvent()->format(fmt, __VA_ARGS__)
 
 
 

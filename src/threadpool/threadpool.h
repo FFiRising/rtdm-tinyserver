@@ -12,9 +12,11 @@
 #include <memory>
 #include <mutex>
 #include <condition_variable>
+#include "../log/log.h"
  //#include <pthread.h>
 //线程池类 模板类 代码复用
 
+static rtdm::Logger::ptr thpool_logger = RTDM_LOG_NAME("system");
 class thread{
 public:
     pthread_t m_thread;
@@ -75,8 +77,10 @@ threadpool<T>:: threadpool(int thread_number, int max_requests) :
     if((thread_number <= 0) || (max_requests <= 0)){
         throw std::exception();
     }
-    printf("m_thread_number %d  m_max_requests %d\n", m_thread_number, m_max_requests);
-    printf("thread_number%d\n",thread_number);
+    RTDM_LOG_FMT_INFO(thpool_logger, "m_thread_number %d  m_max_requests %d",m_thread_number, m_max_requests);
+    RTDM_LOG_FMT_INFO(thpool_logger, "thread_number%d", thread_number);
+   //printf("m_thread_number %d  m_max_requests %d\n", m_thread_number, m_max_requests);
+    //printf("thread_number%d\n",thread_number);
     /*//申请空间
     m_threads = new pthread_t[m_thread_number];
     if(!m_threads){
@@ -97,7 +101,7 @@ threadpool<T>:: threadpool(int thread_number, int max_requests) :
 
     m_threads.reserve(m_thread_number);
     if(m_threads.empty()){
-        printf("there is not any thread be created\n");
+      //  printf("there is not any thread be created\n");
         //printf(" cap : %ld  size %ld", m_threads.capacity(),  m_threads.size());
     }
     for(int i = 0; i < m_thread_number; i++){
@@ -110,7 +114,8 @@ threadpool<T>:: threadpool(int thread_number, int max_requests) :
         if (pthread_detach(m_threads[i]->m_thread)){
             m_threads.pop_back(); 
         }
-        printf("create the %dth thread\n", i);
+        RTDM_LOG_FMT_INFO(thpool_logger, "create the %dth thread", i);
+        //printf("create the %dth thread\n", i);
     }
     
     

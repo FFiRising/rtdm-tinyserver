@@ -1,6 +1,7 @@
 #include "webserverhttp.h"
+#include "../log/log.h"
 
-
+static rtdm::Logger::ptr ws_logger = RTDM_LOG_NAME("system");
 static int pipefd[2];
 static time_heap heap; 
 static client_data * users_data;
@@ -83,7 +84,8 @@ bool dealwithsignal(bool &timeout)
             {
                 timeout = true;// 用timeout变量标记有定时任务需要处理，但不立即处理定时任务
                                 // 这是因为定时任务的优先级不是很高，我们优先处理其他更重要的任务
-				printf("timeout\n");
+				//printf("timeout\n");
+                RTDM_LOG_INFO(ws_logger)<< "Time out ";
                 break;
             }
             case SIGTERM:
@@ -220,7 +222,8 @@ void TinyWebServer::eventloop(){
     while(true){
        int num = epoll_wait(epollfd, events, MAX_EVENT_NUMBER, -1);
         if((num < 0) && (errno != EINTR)){
-            printf("epoll failure\n");
+            //printf("epoll failure\n");
+            RTDM_LOG_ERROR(ws_logger)<< "Epoll Failure ";
             break;
         }
   
@@ -233,19 +236,21 @@ void TinyWebServer::eventloop(){
                 socklen_t client_addrlen = sizeof(client_address);
                 int connfd = accept(m_listenfd, (struct sockaddr *) &client_address, &client_addrlen);
                  if ( connfd < 0 ) {
-                    printf( "errno is: %d\n", errno );
+                    //printf( "errno is: %d\n", errno );
+                    RTDM_LOG_FMT_ERROR(ws_logger, "Accept Failure ",errno);
+
                     continue;
                 } 
                 if(http_conn ::m_user_count >=  MAX_FD){
                     //目前连接数满了，给客户端输出信息： 服务器正忙
-                    printf("服务器正忙\n");
+                    RTDM_LOG_WARN(ws_logger)<< "服务器正忙\n";
                     close(connfd);
                     continue;
                 }
 
                 while(connfd > 0){
 					//建立连接并进行初始化
-					printf("connfd is %d\n", connfd);
+					//printf("connfd is %d\n", connfd);
                  
 					addfd(epollfd, connfd, true, 1);  //ET + 非阻塞
                     
@@ -319,7 +324,8 @@ void TinyWebServer::eventloop(){
 
             else if(events[i].events & EPOLLOUT){
                 //epoll有数据写
-                printf(" HAVE_DATA_TO_WRITE MAIN   ");
+                RTDM_LOG_INFO(ws_logger)<< "HAVE DATA TO WRITE \n";
+                //printf(" HAVE_DATA_TO_WRITE MAIN   ");
                 heap_timer *timer = users_data[sockfd].timer;
 				if(users[sockfd]->setIOState(1)){
                     
@@ -342,7 +348,8 @@ void TinyWebServer::eventloop(){
 				 	}
 					 
 				 }
-                printf("向客户端输出\n");
+                RTDM_LOG_INFO(ws_logger)<< "向客户端输出 \n";
+                //printf("向客户端输出\n");
             }
 
         }
@@ -379,6 +386,7 @@ void TinyWebServer::sql_pool()
     // for(size_t i = 0; i < 2; i++){
     //    users[i] -> initmysql_result(m_connPool); 
     // } 
-    cout << " initmysql over"<< endl;
+    RTDM_LOG_INFO(ws_logger)<< "MYSQL INIT ";
+   // cout << " initmysql over"<< endl;
     
 }

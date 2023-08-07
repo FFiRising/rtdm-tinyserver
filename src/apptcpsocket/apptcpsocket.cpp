@@ -1,7 +1,11 @@
 
 #include "apptcpsocket.h"
+#include "../log/log.h"
 using namespace std;
-const char* file_source_root = "/home/codez/LinuxTest/TinyWebServer2.0/resources/tpdata.json";
+
+static rtdm::Logger::ptr ws_logger = RTDM_LOG_NAME("system");
+
+const char* file_source_root = "/home/codez/LinuxTest/rtdmServer/resources/tpdata.json";
 typedef union {
     float f;
     int i;  
@@ -58,8 +62,8 @@ void APPTCP::socketinit(int port){
         return;
     }
 
-    std::cout << "Data receiver thread is running and listening on port." << m_tcp_port<<std::endl;
-
+    //std::cout << "Data receiver thread is running and listening on port." << m_tcp_port<<std::endl;
+    RTDM_LOG_INFO(ws_logger)<< "Data receiver thread is running and listening on port.";
 
 }
 
